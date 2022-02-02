@@ -1,4 +1,2 @@
 #!/bin/bash
-#My first script
-echo "Creating my first script"
-/n
+echo "Creating my first script" /n
