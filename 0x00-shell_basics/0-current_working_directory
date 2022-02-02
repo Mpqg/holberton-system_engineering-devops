@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Creating my first script" /n
+pwd
