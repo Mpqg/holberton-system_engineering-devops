@@ -2,4 +2,4 @@
 
 input = ARGV[0]
 
-puts input.match(/hbt{2,5}n/)
+puts input.scan(/hbt{2,5}n/).join
