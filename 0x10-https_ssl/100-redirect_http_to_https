@@ -41,7 +41,7 @@ frontend http
 	default_backend web-server
 
 frontend https
-    bind *:443 ssl crt /etc/haproxy/certs/www.mariaquirola.tech.pem
+    bind *:443 ssl crt /etc/haproxy/certs/mariaquirola.tech
 	http-request redirect scheme https unless { ssl_fc }
 	default_backend web-server
 
