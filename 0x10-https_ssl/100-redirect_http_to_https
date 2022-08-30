@@ -48,5 +48,5 @@ frontend https
 backend web-server
     balance roundrobin
 	redirect scheme https if !{ ssl_fc }
-	server 4534-web-01 3.80.29.127:80 check
-	server 4534-web-02 54.162.215.26:80 check
+	server 4534-web-01 3.93.177.40:80 check
+	server 4534-web-02 54.226.121.55.26:80 check
